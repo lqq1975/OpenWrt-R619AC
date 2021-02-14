@@ -15,9 +15,11 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#sed -i '$a src-git lean https://github.com/coolsnowwolf/lede/tree/master/package' feeds.conf.default
 cd package
-git clone https://github.com/liuran001/openwrt-packages
+# git clone -b packages-19.07 https://github.com/liuran001/openwrt-packages
+git clone -b master --single-branch https://github.com/281677160/openwrt-package
 git clone https://github.com/destan19/OpenAppFilter.git
 git clone https://github.com/zzsj0928/luci-app-serverchand
 git clone https://github.com/siropboy/luci-theme-btmod 
-
+svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean
