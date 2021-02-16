@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt-WNDR3700V4
+name: Build OpenWrt-WNDR3700V4[不包含微力同步]
 
 on:
   repository_dispatch:
