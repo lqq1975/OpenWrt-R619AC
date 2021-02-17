@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build WNDR3700V4[config文件测试]
+name: Build WNDR3700V4[filebrowser]
 
 on:
   repository_dispatch:
@@ -31,7 +31,7 @@ env:
   UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: true
-  IMAGE_VERSION: Ver.2021.02
+  IMAGE_VERSION: Ver.fb.210217
   TZ: Asia/Shanghai
 
 jobs:
